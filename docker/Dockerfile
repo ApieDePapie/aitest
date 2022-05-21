@@ -37,7 +37,7 @@ ENV PYOPENGL_PLATFORM egl
 
 COPY 10_nvidia.json /usr/share/glvnd/egl_vendor.d/10_nvidia.json
 
-RUN pip install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+
 
 # install nvdiffrast
 RUN pip install git+https://github.com/NVlabs/nvdiffrast/

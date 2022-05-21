@@ -1,10 +1,10 @@
 name: aitest
 dependencies:
   - python=3.9
-  - pytorch=1.10.1
-  - torchvision=0.11.2
-  - torchaudio=0.10.1
-  - cudatoolkit=10.2
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.3
   - pip:
     - ninja
     - imageio

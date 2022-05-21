@@ -7,6 +7,8 @@
 # without an express license agreement from NVIDIA CORPORATION or 
 # its affiliates is strictly prohibited.
 
+!pip install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+
 import os
 import time
 import argparse

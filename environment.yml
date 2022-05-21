@@ -3,7 +3,6 @@ dependencies:
   - python=3.9
   - pytorch
   - torchvision
-  - torchaudio
   - cudatoolkit=11.3
   - pip:
     - ninja
